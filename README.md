@@ -61,9 +61,9 @@ public function store()
 }
 ```
 
-> This package makes use of sweetalert ![http://t4t5.github.io/sweetalert/]
+> This package makes use of sweetalert http://t4t5.github.io/sweetalert/
 
-> Add the Javascript and css files from ![http://t4t5.github.io/sweetalert/] to your views
+> Add the Javascript and css files from http://t4t5.github.io/sweetalert/ to your views
 
 ```html
 @include('flash::flash')

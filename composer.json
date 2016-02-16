@@ -1,6 +1,11 @@
 {
   "name": "kagga/flash",
-  "description": "",
+  "description": "Package to simply and beautify Flash messages in Laravel 5",
+  "license": "MIT",
+  "keywords": [
+    "Flash Messages",
+    "laravel"
+  ],
   "authors": [
     {
       "name": "Kagga",
