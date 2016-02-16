@@ -1,0 +1,23 @@
+{
+  "name": "kagga/flash",
+  "description": "",
+  "authors": [
+    {
+      "name": "Kagga",
+      "email": "johnkagga@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kagga\\Flash\\": "src/Kagga/Flash"
+    },
+    "files": [
+      "src/Kagga/Flash/functions.php"
+    ]
+  },
+  "minimum-stability": "stable"
+}
