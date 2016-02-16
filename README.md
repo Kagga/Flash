@@ -25,10 +25,6 @@ For convenience, add a facade alias to this same file at the bottom:
 ```
 ## Usage
 
-This package makes use of sweetalert `http://t4t5.github.io/sweetalert/`
-
-Add the Javascript and css files from `http://t4t5.github.io/sweetalert/` to your views
-
 Within your controllers, before the redirect
 
 ```php
@@ -65,14 +61,9 @@ public function store()
 }
 ```
 
-Or, for a general information flash, just do: `flash('Some message');`.
+> This package makes use of sweetalert `http://t4t5.github.io/sweetalert/`
 
-With this message flashed to the session, you may now display it in your view(s). Maybe something like:
-
-
-> Note that this package is optimized for use with Twitter Bootstrap.
-
-Because flash messages and overlays are so common, if you want, you may use (or modify) the views that are included with this package. Simply append to your layout view:
+> Add the Javascript and css files from `http://t4t5.github.io/sweetalert/` to your views
 
 ```html
 @include('flash::flash')
