@@ -65,6 +65,8 @@ public function store()
 
 > Add the Javascript and css files from http://t4t5.github.io/sweetalert/ to your views
 
+To add the Flash view to your view just include it has shown below.
+
 ```html
 @include('flash::flash')
 ```
