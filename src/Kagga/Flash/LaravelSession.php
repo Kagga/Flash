@@ -9,6 +9,7 @@
 namespace Kagga\Flash;
 
 
+use Illuminate\Session\Store;
 use Session;
 
 class LaravelSession implements SessionStore
@@ -20,9 +21,9 @@ class LaravelSession implements SessionStore
 
     /**
      * LaravelSession constructor.
-     * @param Session $session
+     * @param Store $session
      */
-    public function __construct(Session $session)
+    public function __construct(Store $session)
     {
         $this->session = $session;
     }
